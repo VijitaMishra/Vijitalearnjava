@@ -11,6 +11,7 @@ public class Face {
 	
 	public void Smile(){
 		System.out.println("Smile please");
+		System.out.println("Vijita Smile please");
 		
 	}
 	
