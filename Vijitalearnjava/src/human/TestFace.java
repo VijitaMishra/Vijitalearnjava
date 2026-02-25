@@ -9,7 +9,7 @@ public class TestFace {
 		Face face2 = new Face();
 		face2.Blink();
 		
-		Face face3 = new Face();
+		Face face3 = new Face()
 		
 		System.out.println(face2.name);
 		//System.out.printIn(face2.Blink);
