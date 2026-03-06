@@ -26,12 +26,27 @@ public class SwitchDay {
 	case  3:
 		System.out.println("Today is tuesday");
 		break;
+	case  4:
+		System.out.println("Today is saturday");
+		break;
+	case  5:
+		System.out.println("Today is wednesday");
+		break;
+	case  6:
+		System.out.println("Today is thursday");
+		break;
+	case  7:
+		System.out.println("Today is friday");
+		break;
+	default:
+		System.out.println("you are an alien!!");
+	
 		}
 	}
 	
 	public static void main (String[]args) {
 		
-		int num = 3;
+		int num = 5;
 		SwitchDay week = new SwitchDay();
 		week.printdayoftheweek(num);
 	}
