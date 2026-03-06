@@ -1,5 +1,7 @@
 package controlstatement;
 
+import ifelse.StudentMarks;
+
 public class Ifelseblock {
 	
 	boolean itRains= true;
@@ -16,8 +18,12 @@ public class Ifelseblock {
 	}
 	public static void main (String[] args) {
 		
-		Ifelseblock ie = new Ifelseblock();
-		ie.myAction();
+	
+		//Ifelseblock ie = new Ifelseblock();
+		//ie.myAction();
+		StudentMarks sm = new StudentMarks();
+		sm.mymarks(90);
+
 		
 	}
 

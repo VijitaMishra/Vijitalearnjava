@@ -10,9 +10,9 @@ public class StudentMarks {
 
 
 
-	public void mymarks() {
+	public void mymarks(int marks) {
 		
-		int marks = 20;
+		//int marks = 70;
 				
 
 		if (marks>40) {
@@ -24,10 +24,10 @@ public class StudentMarks {
 		}
 	}
 
-	public static void main(String[] args) {
-		StudentMarks sm = new StudentMarks();
-		sm.mymarks();
+	//public static void main(String[] args) {
+		//StudentMarks sm = new StudentMarks();
+		//sm.mymarks();
 
 	}
 
-}
+
