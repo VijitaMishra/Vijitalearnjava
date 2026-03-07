@@ -46,7 +46,7 @@ public class SwitchDay {
 	
 	public static void main (String[]args) {
 		
-		int num = 5;
+		int num = 0;
 		SwitchDay week = new SwitchDay();
 		week.printdayoftheweek(num);
 	}
